@@ -10,9 +10,12 @@ cargo install
 `jumprope rust 'a|b|c'`
 
 will produce 
+
 `a
+
  b
- c`
+
+c`
 
 `jumprope rust -i [regex]` will interpret `regex` as case-insensitive. the `-x` flag will allow whitespace and comments. Be wary of your shell interpreting a regular expression, enclosing them in single quotes is highly recommended.
 
