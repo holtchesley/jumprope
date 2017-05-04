@@ -12,7 +12,9 @@ cargo install
 will produce 
 
 >a
+
 >b
+
 >c
 
 `jumprope rust -i [regex]` will interpret `regex` as case-insensitive. the `-x` flag will allow whitespace and comments. Be wary of your shell interpreting a regular expression, enclosing them in single quotes is highly recommended.
